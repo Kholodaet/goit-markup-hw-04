@@ -242,6 +242,7 @@ ul {
   display: flex;
   justify-content: center;
   gap: 24px;
+  margin-top: 8px;
 }
 
 .social-emblem {
@@ -257,7 +258,6 @@ ul {
   align-items: center;
   justify-content: center;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  border-radius: 50%;
 }
 
 .emblem:hover,
@@ -310,7 +310,7 @@ ul {
   transform: translateY(0%);
 }
 
-.fourth-section-item p:hover {
+.fourth-section-item:hover p {
   transform: translateY(0%);
 }
 
